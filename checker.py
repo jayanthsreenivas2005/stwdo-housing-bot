@@ -84,3 +84,6 @@ def check_for_new_ads():
 
 if __name__ == "__main__":
     check_for_new_ads()
+if __name__ == "__main__":
+    send_telegram_alert("🔔 Test message! Your STWDO housing bot is connected successfully.")
+    check_for_new_ads()
